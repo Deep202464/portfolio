@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/Arial-bold.ttf)}
+
+*
+{ margin:0;
+padding:0;
+box-sizing:border-box}
+
+body{ min-height:100vh;
+background: url(../img/bg-1.jpg);
+overflow:hidden}
+
+span{ position:absolute;
+width:20px;
+height:4px;
+border-radius:4px;
+background:#00FFFF;
+pointer-events:none;
+transform-origin:50px;
+box-shadow:0 0 10px #00FFFF,
+0 0 20px #00FFFF,
+0 0 40px #00FFFF;
+transition:0.1s;
+animation:animate 10s linear infinite;}
+
+@keyframes animate{
+	0%
+	{ transform: rotate(0deg)}
+	100%
+	{ transform: rotate(360deg)}
+	
+	}
+	
+	.text{ font-family: myFirstFont;}
+	
+	.heading{font-family: myFirstFont; padding-top:30px; font-size:30px}
