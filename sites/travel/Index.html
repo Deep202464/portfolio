@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+    <!-- Bootstrap -->
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
+        <link href="css/bootstrap-3.3.4.css" rel="stylesheet" type="text/css">
+        <script src="js/jquery-1.11.2.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+  <!-- <script src="js/bootstrap.js"></script> -->
+    <script src="js/bootstrap-3.3.4.js" type="text/javascript"></script>
+  </head>
+  
+  
+  
+  <body>
+  <div class="container-fluid nav-bg">
+
+  <div class="container ">
+  <div class="row">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+          <a class="navbar-brand" href="#"><img src="images/logo.png"  alt=""/></a></div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="defaultNavbar1">
+          <!--<ul class="nav navbar-nav">
+            <li class="active"><a href="#">Link<span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Link</a></li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>-->
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right nav-text">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">EXPLORE<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+            <li><a href="#">CONTACT</a></li>
+            
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+  </div>
+  </div>
+  
+<!------------------------------------------------------navbar-end------------------------------------------------------>
+
+<!-------------------------------------------------first-carousel-start------------------------------------------------> 
+  <div class="row">
+    <div id="carousel1" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel1" data-slide-to="1"></li>
+        <li data-target="#carousel1" data-slide-to="2"></li>
+        <li data-target="#carousel1" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active"><img src="images/gallary-1.png" alt="" width="100%" class="center-block"/>
+          <!--<div class="carousel-caption">
+            <h3>First slide Heading</h3>
+            <p>First slide Caption</p>
+          </div>-->
+        </div>
+        <div class="item"><img src="images/gallary-2.png" alt="" width="100%" class="center-block"/>
+          <!--<div class="carousel-caption">
+            <h3>Second slide Heading</h3>
+            <p>Second slide Caption</p>
+          </div>-->
+        </div>
+        <div class="item"><img src="images/gallary-3.png" alt="" width="100%" class="center-block"/>
+          <!--<div class="carousel-caption">
+            <h3>Second slide Heading</h3>
+            <p>Second slide Caption</p>
+          </div>-->
+        </div>
+        <div class="item"><img src="images/gallary-4.png" alt="" width="100%" class="center-block"/>
+          <!--<div class="carousel-caption">
+            <h3>Third slide Heading</h3>
+            <p>Third slide Caption</p>
+          </div>-->
+        </div>
+      </div>
+      <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel1" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span></a></div>
+  </div>
+  
+<!-------------------------------------------------first-carousel-end------------------------------------------------------>
+
+<!------------------------------------------second carousel-start----------------------------------------->
+
+<div class="row carousel-bg ">
+  <div id="carousel2" class="carousel slide" data-ride="carousel">
+    <!--<ol class="carousel-indicators">
+      <li data-target="#carousel2" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel2" data-slide-to="1"></li>
+      <li data-target="#carousel2" data-slide-to="2"></li>
+    </ol>-->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active"><img src="images/carousel_icons.png" alt="" width="90%" class="center-block"/>
+        <!--<div class="carousel-caption">
+          <h3>First slide Heading</h3>
+          <p>First slide Caption</p>
+        </div>-->
+      </div>
+      <div class="item"><img src="images/carousel_icons.png" alt="" width="90%" class="center-block"/>
+        <!--<div class="carousel-caption">
+          <h3>Second slide Heading</h3>
+          <p>Second slide Caption</p>
+        </div>-->
+      </div>
+      <div class="item"><img src="images/carousel_icons.png" alt="" width="90%" class="center-block"/>
+        <!--<div class="carousel-caption">
+          <h3>Third slide Heading</h3>
+          <p>Third slide Caption</p>
+        </div>-->
+      </div>
+    </div>
+    <a class="left carousel-control" href="#carousel2" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel2" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span></a></div>
+</div>  
+
+<!------------------------------------------second carousel-end----------------------------------------->
+
+
+<!------------------------------------our-services-start------------------------------------------>  
+
+<div class="row">
+<div class="sub-text">Why choose us
+<div class="heading">Our Services
+</div></div>
+<div class="line col-md-2 col-md-offset-5"></div>
+</div>
+
+
+<div class="row">
+<!--<div class="circle col-md-3"><div class="gol text-center">ok</div></div>
+<div class="circle col-md-3"></div>
+<div class="circle col-md-3"></div>
+<div class="circle col-md-3"></div>-->
+
+<div class="circle-text col-md-3"><div class="circle text-center"><img src="images/icon-1.png" alt=""/></div>
+The Most Reliable <br>Airlines 
+<div class="line col-md-10 col-md-offset-1"></div>
+<div class="circle-subtext"> Contrary to popular belief, Lorem <br> ipsom is not random text.</div>
+</div>
+
+
+<div class="circle-text col-md-3"><div class="circle text-center"><img src="images/icon-2.png" alt=""/></div>
+More than 7M visitors <br>each month
+<div class="line col-md-10 col-md-offset-1"></div>
+<div class="circle-subtext"> Contrary to popular belief, Lorem <br> ipsom is not random text.</div>
+</div>
+
+<div class="circle-text col-md-3"><div class="circle text-center"><img src="images/icon-3.png" alt=""/></div>
+User friendly <br>search system 
+<div class="line col-md-10 col-md-offset-1"></div>
+<div class="circle-subtext"> Contrary to popular belief, Lorem <br> ipsom is not random text.</div>
+</div>
+
+<div class="circle-text col-md-3"><div class="circle text-center"><img src="images/icon-4.png" alt=""/></div>
+Fast and Reliable <br>Tickit Booking 
+<div class="line col-md-10 col-md-offset-1"></div>
+<div class="circle-subtext"> Contrary to popular belief, Lorem <br> ipsom is not random text.</div>
+</div>
+
+</div>
+
+<!------------------------------------our-services-end------------------------------------------>
+
+<!-----------------------------------------our-destinations-start---------------------------------------->
+
+<div class="row">
+<div class="sub-text">Deals
+<div class="heading">Our Destinations
+</div></div>
+<div class="line col-md-2 col-md-offset-5"></div>
+</div>
+
+<div class="row">
+<div class="box col-md-8 col-md-offset-2">
+<div class="offer-text ">
+Alloffers Alloffers Alloffers Alloffers Alloffers Alloffers</div>
+</div>
+</div>
+
+<div class="row">
+<div class="gallary col-md-8 col-md-offset-2 ">
+
+<div class="col-md-4">
+<div class="blog-img"><img src="images/blog-image-1.png" alt=""/></div>
+<div class="blog-img"><img src="images/blog-image-2.png"   alt="" /></div>
+</div>
+
+<div class="col-md-4">
+<div class="blog-img"><img src="images/blog-image-3.png"  alt=""  /></div>
+<div class="blog-img"><img src="images/blog-image-4.png"  alt=""  /></div>
+</div>
+
+
+<div class="col-md-4">
+<div class="blog-img"><img src="images/blog-image-5.png" alt="" /></div> 
+<div class="blog-img"><img src="images/blog-image-6.png" alt="" /></div>
+</div>
+
+
+
+
+</div>
+</div>
+
+<div class="row">
+<div class="ticket-box col-md-2 col-md-offset-5">
+<div class="find-ticket"><ul><li><a href="#">Find Tickets</a></li></ul></div>
+</div>
+</div>
+<!---------------------------------------------our-destinations-end---------------------------------->
+
+<!---------------------------------------------blogs-post-start---------------------------------->
+ <div class="container ">
+<div class="row">
+<div class="sub-text">Tips and Tricks
+<div class="heading">Recent Blog Posts
+</div></div>
+<div class="line col-md-2 col-md-offset-5"></div>
+</div>
+
+<div class="row">
+
+<div class="tab col-md-6">
+
+<div class=" col-md-6 ">
+<div class="blog-heading-box col-md-6 col-md-offset-2">
+<div class="blog-heading">Blogs</div>
+
+
+<div class="blog-subtext ">Visit America In Budget</div></div>
+
+<div class="blog-text col-md-9 col-md-offset-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</div>
+
+
+<div class="read-more2 col-md-5">Read More<a href="#"><img src="images/arrow(blue).png" alt="" /></a></div>
+ 
+
+
+
+
+<!--<div class="row">
+<div class="s-box col-md-2 "><a href="#"><img src="images/arrow-left(white).png" alt=""/></a></div>
+<div class="s-box col-md-2 "><a href="#"><img src="images/arrow-right(white).png"  alt=""/></a></div></div>-->
+
+
+</div>
+
+</div>
+
+
+
+<div class="box1 col-md-2"><img src="images/article-img-1.png"  alt="" width="100%"/>
+<div class="box1-text">9 Ways to became a successful<br>
+Travel Bloger</div>
+
+<div class="box1-subtext">Lorem Ipsum is simply dummy text<br>
+                         of the printing and typesetting<br>
+                          industry. Lorem Ipsum has been the<br>
+                           industry's standard dummy text ever<br>
+                            since the 1500s, when an unknown<br> 
+                            printer took a galley of type and<br>
+                            scrambled it to make a type. </div>
+                            
+
+<div class="read-more">Read More <a href="#"><img src="images/arrow.png"  alt=""/></a></div>
+
+</div>
+
+<div class="box2 col-md-2"><img src="images/article-img-2.png"  alt="" width="100%"/>
+
+<div class="box1-text">The Ultimalte list of femlae<br>
+Travellers.</div>
+
+<div class="box1-subtext">Lorem Ipsum is simply dummy text<br>
+                         of the printing and typesetting<br>
+                          industry. Lorem Ipsum has been the<br>
+                           industry's standard dummy text ever<br>
+                            since the 1500s, when an unknown<br> 
+                            printer took a galley of type and<br>
+                            scrambled it to make a type. </div>
+                            
+
+<div class="read-more">Read More <a href="#"><img src="images/arrow.png"  alt=""/></a></div>
+
+</div>
+
+</div>
+
+<div class="row">
+<div class="button col-md-2 col-md-offset-5">
+<div class="button-text"><ul><li><a href="#">VIEW ALL BLOGS</a></li></ul></div>
+</div>
+</div></div>
+
+<!---------------------------------------------blogs-post-end---------------------------------->
+
+<!------------------------------------------------support-start---------------------------------->
+ <div class="row support-box"><div class="container ">
+<div class=" col-md-12">
+<div class="support-text">24/7 SUPPORT</div>
+<div class="support-subtext">Our support service is available 24 hours a day, 7 days a week to <br> to help you buy your tickets.</div>
+<div class="button2 col-md-2 col-md-offset-5">
+<div class="button-text2 "><ul><li><a href="#">Get In Touch</a></li></ul></div>
+</div>
+
+</div>
+</div></div>
+<!------------------------------------------------support-end---------------------------------->
+
+<!------------------------------------------------footer-start---------------------------------->
+<div class="row ">
+
+<div class="footer col-md-12">
+<div class="col-md-4">
+ <div class="footer-logo col-md-offset-2 "><img src="images/logo.png"  alt=""/> </div>
+
+<div class="footer-text col-md-offset-1 ">It is a long established fact that a reader will be distracted by<br>
+ the readable content of a page when looking at its layout. The<br>
+  point of using Lorem Ipsum is that it has a more-or-less<br>
+   normal distribution of letters, as opposed to using 'Content<br>
+    here, content here', making it look like readable English.
+   
+    <p>
+    
+    It is a long established fact that a reader will be distracted by<br>
+ the readable content of a page when looking at its layout. The<br>
+  point of using Lorem Ipsum is that it has a more-or-less<br>
+   normal distribution of letters, as opposed to using 'Content<br>
+    here, content here', making it look like readable English.</p></div></div>
+    
+ <div class="col-md-4">
+ <div class="footer-heading">What people say
+ <div class="footer-line col-md-6 col-md-offset-3"></div>
+ </div>
+ <div class="footer-text col-md-offset-1"> It is a long established fact that a reader will be distracted by<br>
+ the readable content of a page when looking at its layout. The<br>
+  point of using Lorem Ipsum is that it has a more-or-less<br>
+   normal distribution of letters, as opposed to using 'Content<br>
+    here, content here', making it look like readable English.</div>
+ </div>   
+    
+ <div class="col-md-4 ">
+ <div class="footer-heading">Contact Us</div>
+ <div class="footer-line col-md-4 col-md-offset-4"></div>
+
+
+<div class="footer-inputs col-md-offset-4">
+ <input type="Your Name" class="form-control" id="Your Name" placeholder=" Your Name" name="Your Name">
+ <input type="email" class="form-control" id="email" placeholder=" Email" name="email">
+ <input type="massege" class="form-control" id="massege" placeholder=" massege" name="massege">
+<button type="submit" class="btn btn-default">Submit</button></div>
+
+ </div>
+
+<div class="footer-2-line col-md-10 col-md-offset-1"></div>
+  
+  <div class="footer-2-logo"><a href="#"><img src="images/logo-1.png"  alt=""/></a>
+                              <a href="#"><img src="images/logo-2.png"  alt=""/></a>
+                              <a href="#"><img src="images/logo-3.png"  alt=""/></a> 
+                             <a href="#"><img src="images/logo-4.png"  alt=""/></a>
+                             </div>
+
+
+<div class="footer-lastline">Copyright © 1996–2025 abc.com™. All rights reserved.</div>
+
+
+
+</div>
+</div>
+
+
+
+
+  </div>
+  
+</body>
+</html>
