@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: myFirstFont;
+  src: url(file:///D|/web%201/web%20flower/font/Century751%20SeBd%20BT%20Semi%20Bold%20Italic.ttf);
+}
+
+
+
+
+
+*{ padding:0 ; margin:0}
+
+body{ background: url(file:///D|/web%201/web%20flower/images/sunflowers-8351807_1280.jpg)} 
+
+
+.wrap{ width:1200px; height:auto; margin:0 auto; background:#ffffff}
+
+
+.top{ height:110px; background:#FF9600}
+
+.top .logo{ float:left; width:430px; font-size:57pt; color:#FF0004; font-family: myFirstFont; padding-left:60px; line-height:1.4}
+
+.top .nav{ float:right; width:602px; font-family: myFirstFont; padding-right:60px}
+
+
+.top .nav ul{ list-style:none; font-size:14pt; text-align:center}
+
+.top .nav li{ display:inline; padding:10px; color:#FFFFFF; line-height:4}
+.top .nav li a{ color:#FFFFFF; line-height:4; text-decoration:none;  padding:20px}
+
+
+.top .nav li a:hover{ color:#FFffff; line-height:4; text-decoration:none; background:#FF0004;}
+
+.gallery{ height:468px; margin:74px 0 53px}
+.fixed{ position:fixed}
+/*.fixed img{ position:absolute; z-index:999; top:412px; left:-4px}*/
+
+.text{ height:auto;/* background:#61E01C*/; margin:0px 64px 97px 64px; line-height:2; text-align:justify}
+
+.text .heading{ color:#FF0004; font-size:40pt; font-family:  myFirstFont}
+.text .left{ float:left; width:677px}
+
+.text .right{ float:right; width:355px}
+
+.text .welcome{ margin-bottom:30px}
+
+.text .testimonials{ background: #F566C4; width:637px; height:225px; padding:20px}
+
+.text .ourwork{ background: #35D87A; width:318px; height:225px; padding:20px}
+
+.footer{ height:80px; background:#361112; clear:both; font-size:24px; color:#F3F3F3; text-align:center; line-height:3}
