@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ padding:0; margin:0}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(file:///D|/web%201/sony%20web/font/ARLRDBD.TTF);
+}
+
+
+body{ background-image: linear-gradient(#1e446a, #000000)}
+
+.wrap{  width:1200px; margin:0 auto; background:#ffffff}
+.top .logo{ width:372px; float:left;  font-family: myFirstFont; font-size:80pt}
+.top{ height:138px; background-image: linear-gradient(#1e446a, #000000); color:#FFFFFF}
+.top .nav{ float:right; width:700px; padding-top:20px}
+.top .nav li{ display:inline; padding:20px; line-height:3; font-size:20pt}
+.top .nav li a{ color:#FFFFFF; text-decoration:none; background:none; transition:0.3s}
+.top .nav li a:hover{ color: #F0148F; background: #CBCBCB}
+/*-----------------------------topend-----------------------*/
+
+.gallary{ position:relative}
+
+.gallary .fixed{ position:fixed}
+
+.gallary .social{ background:#000000; height:200px; width:100px; position:absolute; top:150px; left:1200px; border-radius:30px; text-align:center; padding:10px}
+/*-----------------------------gallaryend-----------------------*/
+
+.content{}
+.content .top{ height:95px; border-bottom:1px solid #cacffa; background:#ffffff}
+.content .float{ width:378px; border-right:1px solid #cacffa; float:left; padding:10px}
+.content .float img{float:left; margin:5px}
+
+.content .main{}
+.content .left{ width:433px; float:left}
+
+.content .left .box{ margin:10px}
+
+.content .left .box .pannel{ position:absolute;  color:#000000; width:25%; z-index:999px; top:1500px; line-height:2; 
+background:rgba(255, 255, 255, 0.6); padding-left:10px; text-transform:uppercase; transition:1s}
+
+.content .left .box .pannel:hover{ color: #7623D1; background:rgba(255, 255, 255, 1.0); padding-left:10px; text-transform:uppercase; cursor:pointer}
+
+/*-------------------------right-------------------*/
+
+.content .right{ width:750px; float:right}
+
+.content .right .box{ float:right; width:auto; margin:5px; position:relative}
+
+.content .right .box .pannel{ position:absolute;  color:#000000; width:70%; z-index:999px; top:290px; line-height:2; 
+background:rgba(255, 255, 255, 0.6); padding-left:10px; text-transform:uppercase}
+
+.content .right .box .pannel:hover{ color: #7623D1; background:rgba(255, 255, 255, 1.0); padding-left:10px; text-transform:uppercase; cursor:pointer}
+/*-----------------------------contentend-----------------------*/
+.footer{ background:#212121; color:#FFFFFF; padding:20px; font-family: myFirstFont; clear:both; height:312px}
+
+.footer .left{ width:250px; float:left; padding:20px; font-size:11pt}
+
+.footer .left li{ line-height:3; list-style-image: url(file:///D|/web%201/sony%20web/images/tv.png); list-style-position:inside}
+
+.footer .left li a{ color:#FFFFFF; text-decoration:none; transition:0.3s background; background:rgba(254, 61, 106, 0.1); padding:0px}
+
+.footer .left li a:hover{ color:#FFFFFF; text-decoration:none; background:#DDDDDD; background:rgba(254, 61, 106, 0.4); padding:20px}
+
+.footer .left h3{ line-height:3}
+
+.footer2{ height:30px; background:#000000; color:#FFFFFF; clear:both; text-align:center; line-height:2}
+
+.about{ padding:20px; line-height:2}
