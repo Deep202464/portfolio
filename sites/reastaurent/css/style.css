@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0;}
+
+
+  @font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/BerkshireSwash-Regular.ttf)}
+  
+  @font-face {
+  font-family: myFirstFont1;
+  src: url(../fonts/poppins.regular.ttf)}
+  
+  @font-face {
+  font-family: myFirstFont2;
+   src:url(../fonts/poppins.medium.ttf)}
+   
+   @font-face {
+  font-family: myFirstFont3;
+   src: url(../fonts/FontsFree-Net-Poppins-MediumItalic.ttf)}
+   
+     @font-face {
+  font-family: myFirstFont4;
+   src: url(../fonts/montserrat.regular.ttf)}
+   
+    @font-face {
+  font-family: myFirstFont5;
+   src: url(../fonts/poppins.bold.ttf)}
+  
+  
+  @font-face {
+  font-family: myFirstFont6;
+   src: url(../fonts/poppins.semibold.ttf)}
+
+.bg{ background:#6e9f4d; background-position:top center}
+
+.pattern1{ background:url(../images/pattern-1.png); background-position:right; background-repeat:no-repeat;}
+
+.box{ height:130px; background:#537543}
+
+ .nav-text{ color:#FBFBFB; font-family: myFirstFont2; font-size:26px; padding-top:40px}
+.nav-text li{ list-style:none}
+.nav-text li a{ color:#ffffff}
+.nav-text li a:hover{ color:#1BE90B; text-decoration:none}
+
+.nav-bg{ width:auto; background: #537543; border-radius:50px}
+
+
+.food1{ float:right; margin-top:68px; margin-right:135px}
+
+.toptext{ color:#FFFFFF;font-family: myFirstFont; font-size:35px; margin-top:250px; text-align:center; line-height:1.2; margin-left:20px}
+.bigtext{ color:#FFFFFF;font-family: myFirstFont; font-size:60px; text-align:center}
+
+.text{color:#FFFFFF; font-size:20px; font-family: myFirstFont1; margin-top:55px; line-height:1.5; text-align: justify}
+
+.book-now{ background:#e6ca48; height:55px; margin-top:76px; margin-left:134px; border-radius:30px 30px 30px 30px}
+.book-now:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.book-now-text{ color:#3e5831; text-align:center; font-size:22px; font-family: myFirstFont2; margin-top:10px}
+.book-now-text li{ list-style:none}
+.book-now-text li a{ color:#3e5831}
+.book-now-text li a:hover{ color:#ffffff; text-decoration:none}
+
+
+.midbox{ height:auto; background:#e6ca48; border-radius:20px 0 0 20px; margin-top:150px}
+.midtext{ text-align:center; font-family: myFirstFont; font-size:60px; color:#537543; padding:26px}
+.subtitle{text-align:center; font-family: myFirstFont3; font-size:25px; color:#537543; padding:26px}
+.bodytext{  text-align: justify; color:#5a7d48; font-family: myFirstFont4; padding:26px; font-size:20px;}
+
+
+.read-more{ background:#ffffff; height:54px; margin-top:30px; border-radius:30px 30px 30px 30px; cursor: pointer}
+.read-more:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.read-more-text{ font-family: myFirstFont2; text-align:center; color:#000000; font-size:24px; margin-top:10px}
+.read-more-text li{ list-style:none}
+.read-more-text li a{ color:#3e5831}
+.read-more-text li a:hover{ color:#e6ca48; text-decoration:none}
+
+.food2{ animation: animName 10s linear infinite; filter:drop-shadow(5px 5px 5px #222)
+}
+
+@keyframes animName {
+ 0%{
+    transform: rotate(0deg);
+   }
+100%{
+    transform: rotate(360deg);
+   } }
+
+.pattern-2{ background:url(../images/pattern-2.png); background-position:center; background-repeat:no-repeat;}
+
+.box2{ height:auto; background:#537543; margin:40px 0; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)}
+.star{ text-align:center; margin-top:110px;  animation: mymove 5s infinite;}
+@keyframes mymove {
+  50% {transform: rotate(180deg);}
+}
+
+.title{ color:#FFFFFF; text-align:center; font-family: myFirstFont5; margin-top:81px}
+.subtext{ color:#FFFFFF; text-align:center; font-family: myFirstFont1;}
+
+.midtitle{ color:#FFFFFF; font-size:85px; margin-top:48px;text-align:center; font-family: myFirstFont}
+.subtext2{ color:#FFFFFF; text-align:center; font-family: myFirstFont1; font-size:25px; letter-spacing:5px}
+
+.chiefs{ margin:15px; background:#537543; border-radius:0 0 20px 20px}
+.sbox{ /*height:116px;*/ }
+.sbox-text{ color:#FFFFFF; font-family: myFirstFont1; margin-top:32px; font-size:20px; letter-spacing:2px}
+
+.body-text{ color:#FFFFFF; text-align:center; margin-top:30px; font-size:25px}
+
+
+
+.bigbox{ height:835px; background:#dd982c; margin-top:165px}
+
+.food3{ margin-top:186px; margin-left:102px}
+
+
+.subtext3{ color: #FFFFFF; margin-top:200px; font-size:30px; font-family: myFirstFont2; margin-left:40px}
+.subtitle{ color: #ffffff; font-size:20px; font-family: myFirstFont3; }
+.slide{ position:relative}
+.greenbox{ height:567px; background:#537643;}
+.carousel-text{ font-family: myFirstFont;  }
+.carousel-subtext{ font-family: myFirstFont1; font-size:20px}
+
+.menu-box{ height:auto; background:#e6ca48; margin-top:188px}
+.title-1{font-family: myFirstFont6; color:#537942; text-align:center; font-size:86px; padding-top:68px}
+.subtext-1{ color:#537942; text-align:center; font-size:35px; font-family: myFirstFont1;}
+.bodytext-1{ text-align:center; color:#537942; margin-top:20px; font-size:18px}
+
+.carousel-box{ height:auto; background:#6b9651}
+
+.white-box{  background:#ffffff; height:auto}
+.title-2{ font-family: myFirstFont; color:#68914f; font-size:70px; text-align:center; padding-top:69px}
+.body-text-2{ color:#658e4d; text-align:center; font-family: myFirstFont1; font-size:20px; padding-top:59px}
+
+.email-box input{  width:100%}
+.button{ height:45px; text-align:center; background:#537942; border-radius:30px 30px 30px 30px; margin-top:30px }
+.subscription{ font-size:25px; font-family: myFirstFont2; color:#FFFFFF; margin-top:10px;}
+  
+.subscription li{ list-style:none}
+.subscription li a{ color:#ffffff}
+.subscription li a:hover{ color:#e6ca48; text-decoration:none}
+
+.footer{ height:auto; background:#537942; margin-top:10px}
+.footer-text{ color:#FFFFFF; font-family: myFirstFont; font-size:29px; padding-top:154px; padding-left:60px}
+.footer-bodytext{ font-family: myFirstFont1; padding-left:60px; padding-top:30px; color:#FFFFFF; font-size:20px;}
+.footer-bodytext li{ list-style:none}
+.footer-bodytext li a{ color:#ffffff}
+.footer-bodytextli a:hover{ color:#e6ca48; text-decoration:none}
+
+.social{ margin-top:46px; word-spacing:10px}
