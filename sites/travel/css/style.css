@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0;}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/ARIALBD.TTF)}
+  
+  @font-face {
+  font-family: myFirstFont1;
+  src: url(../fonts/Weekend%20Story.ttf)}
+
+
+.nav-bg{ height:122px; background-image: linear-gradient(to right, #1893d9 , #1485c4, #1070a6)}
+.nav-text{ font-size:17px; padding-top:60px; font-family: myFirstFont}
+
+.carousel-bg{ background:#ececec}
+
+.sub-text{ color:#1dadff; font-size:17px; text-align:center; margin-top:100px;  font-family: myFirstFont}
+.heading{ color:#000000; font-size:50px; text-align:center;  font-family: myFirstFont}
+.line{ height:6px; background:#1dadff; border-radius: 20px 20px 20px 20px}
+
+.circle{ width:30%; height:auto; background:#f1e9e9; border-radius:50%; padding:10px ; border:1px solid #8F8F8F; margin:0 auto}
+/*.circle{height: 25px;background-color: #bbb;border-radius: 50%}*/
+.circle-text{ color:#000000; font-size:30px; text-align:center; margin-top:100px;  font-family: myFirstFont1}
+.circle-subtext{ color:#000000; font-size:20px; text-align:center; margin-top:19px;  font-family: myFirstFont}
+
+
+.box{ height:auto; margin-top:37px; border-radius:20px 20px 20px 20px; border-style: solid;
+border-color:#d7d7d7; background-image: linear-gradient(to right, #ebebeb , #d7d7d7 , #b7b7b7);}
+
+
+.offer-text{ color:#000000; font-size:20px; padding-top:15px; word-spacing:80px; padding-left:30px; font-family: myFirstFont}
+  
+.gallary{ height:auto; margin-top:23px}
+
+.blog-img{}
+.blog-img img{ margin:0; padding:0; width:100%}
+
+
+.ticket-box{ height:70px; background:#fdb416; margin-top:48px; border-radius:20px 20px 20px 20px; box-shadow:#000000; animation-name: colour-change; animation-duration:  5s; animation-iteration-count: infinite}
+
+@keyframes colour-change {
+  from {background-color:#fdb416;}
+  to {background-color: red;}
+}
+
+.find-ticket{ color:#ffffff; text-align:center; font-size:28px; margin-top:15px; font-family: myFirstFont}
+.find-ticket li{ list-style:none}
+.find-ticket a{ color:#ffffff}
+.find-ticket li a:hover{ color:#000000; text-decoration:none;}
+
+/*----------------------------------------blogs ans posts-------------------------------------------------*/
+.tab{ margin-top:70px; /*position: relative ;*/ background:url(../images/tab.png) center top no-repeat;  background-size:100%; height:500px}
+
+
+
+.blog-heading{   font-size:20px; margin-top:5px; font-family: myFirstFont; color:#FFFFFF; text-align:center /*height:50%;overflow: scroll;*/;  }
+
+.blog-heading-box{ height:40px; background:#3fa7e2; border-radius:20px; padding-left:10px; margin-top:40px; color:#FFFFFF; }
+
+.blog-subtext{ color:#000000; font-family: myFirstFont; font-size:12px; margin-top:30px; margin-left:15px}
+
+.blog-text{font-size:12px;font-family: myFirstFont; margin-top:40px;  color:#FFFFFF; position:absolute}
+
+.read-more2{ color:#1dadff;/* font-size:20px;*/ font-family: myFirstFont; margin-top:10px; margin-left:60px;}
+
+.s-box{ height:30px; margin-top:60px; border-style: solid; border-color:#87d4ff; margin-left:60px; text-align:center;}
+
+.box1{ height:auto; border-radius:0px 0px 20px 20px; border-style: solid; border-color:#87d4ff; margin-top:70px; margin-left:40px }
+
+
+.box1-text{ color:#000000; font-size:12px; margin-top:40px; font-family: myFirstFont}
+
+.box1-subtext{ color:#000000; font-size:12px; margin-top:40px; font-family: myFirstFont}
+
+.read-more{ color:#1dadff; font-size:15px; font-family: myFirstFont; margin-top:30px; margin-left:20px}
+
+.box2{ height:auto; border-radius:0px 0px 20px 20px; border-style: solid; border-color:#87d4ff; margin-top:70px; margin-left:40px}
+.button{ height:28px; background:#1dadff; border-radius:20px 20px 20px 20px; margin-top:40px; animation-name: example; animation-duration:  5s; animation-iteration-count: infinite}
+.button-text{ color:#FFFFFF; font-size:17px; text-align:center; margin-top:4px;  font-family: myFirstFont}
+.button-text li{ list-style:none}
+.button-text a{ color:#ffffff}
+.button-text li a:hover{ color:#000000; text-decoration:none;}
+/*----------------------------------------blogs ans posts end-------------------------------------------------*/
+
+.support-box{ height:auto; background:#327dd5; margin-top:102px}
+.support-text{ color:#FFFFFF; font-size:50px; text-align:center; margin-top:36px;  font-family: myFirstFont}
+.support-subtext{ color:#FFFFFF; text-align:center; font-size:20px;  font-family: myFirstFont}
+
+.button2{ height:52px; background:#0f6ca1; margin-top:48px; border-radius:30px 30px 0px 0px; animation-name: example; animation-duration:  5s; animation-iteration-count: infinite}
+  @keyframes example {
+  from {background-color: #0f6ca1;}
+  to {background-color: #1dadff;}
+}
+  
+.button-text2{ color:#000000; font-size:25px; text-align:center; margin-top:10px;  font-family: myFirstFont}
+.button-text2 li{ list-style:none}
+.button-text2 a{ color:#ffffff}
+.button-text2 li a:hover{ color:#000000; text-decoration:none;}
+
+
+
+.footer{  background:#0f6ca1; margin-top:97px}
+.footer-logo{ padding-top:17px}
+.footer-text{ padding-top:18px; font-size:16px; color:#FFFFFF; }
+
+.footer-heading{ color:#fdb416; font-size:30px; padding-top:30px; text-align:center; line-height:2.5}
+.footer-line{ height:3px; background:#FFFFFF; border-radius:10px 10px 10px 10px}
+.footer-inputs{ margin-top:20px;}
+
+.footer-2{ background:#0f6ca1; height:auto}
+.footer-2-line{ background:#FFFFFF; height:3px; margin-top:30px;}
+.footer-2-logo{ margin-top:50px; text-align:center}
+.footer-lastline{ color:#FFFFFF; font-family: myFirstFont; font-size:13px; margin-top:30px;}
