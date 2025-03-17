@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0;}
+
+@font-face {
+  font-family: myFirstFont;
+  src:url(../fonts/KGCorneroftheSky.ttf)}
+  
+  @font-face {
+  font-family: myFirstFont1;
+  src: url(../fonts/BombermanDemo-lxPEV.otf)}
+  
+
+
+.bg{ background:url(../images/bg.png) fixed; background-repeat: no-repeat;
+  background-position:top center; 
+  background-size:100%}
+  
+
+ .logo{ margin-top:12px}
+   
+ .animated {
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes tada {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%, 20% {
+    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%, 50%, 70%, 90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%, 60%, 80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.tada {
+  animation-name: tada;
+}
+ 
+ .nav-text{ color:#FBFBFB; font-family: myFirstFont; word-spacing:40px; font-size:26px; padding-top:50px}
+.nav-text li{ list-style:none}
+.nav-text li a{ color:#000000}
+.nav-text li a:hover{ color:#1BE90B; text-decoration:none}
+/*.top{ height:143px; background:#ffeb09; border-radius:20px 0px 0px 20px }*/
+
+.mid-img{ text-align:center; padding-top:54px;}
+
+.line{ border-color:#000000; border-style:dashed; margin-top:10px}
+
+
+
+
+.heading{ color:#000000; text-align:center; font-family: myFirstFont; font-size:30px; margin-top:10px}
+.heading2{ color:#000000; text-align:center; font-family: myFirstFont; font-size:30px; padding-top:10px}
+
+/*-----------------------------------------------------------upperbox---------------------------------------*/
+
+.upper-box{ height:458px; background:#f47e27; margin-left:30px; margin-top:98px; border-radius:30px 30px 30px 30px; border-bottom:solid 65px #d47128}
+
+.calender{ margin-top:32px}
+
+.butterfly{ margin-left:-27px; margin-top:-68px; position:absolute; }
+
+.upper-box2{ height:458px; background:#36c0d9; margin-right:21px; margin-top:98px; border-radius:40px 40px 40px 40px; border-bottom:solid 85px #1c7787; position:relative}
+.text{ font-size:15px; margin-top:20px; margin-left:26px; margin-right:30px; color:#FFFFFF}
+.img{ margin-top:10px}
+
+.box{ height:70px; background:#ffffff; margin-top:18px; border-radius:50px 50px 50px 50px;  transition-duration: 0.4s;
+  cursor: pointer;}
+.box:hover{transform:scale(1.3); z-index:2; box-shadow:2px 2px 2px #000}
+.box:active {
+  background-color:#f0eadc;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.view-more{ color:#000000; margin-top:10px; transition:1s}
+.view-more li{ list-style:none}
+.view-more li a{ color:#000000}
+.view-more li a:hover{ color:#EB6F03; text-decoration:none}
+
+
+/*-----------------------------------------------------------midbox---------------------------------------*/
+.tree{ margin-top:76px}
+
+.dragonfly{ position:absolute}
+
+.mid-box{ height:598px; background:#ebf31c; margin-left:50px; margin-top:80px; border-radius:60px 60px 60px 60px;  border-bottom:solid   90px #8c9019; position:relative}
+.text2{ color:#FFFFFF; font-size:28px; margin-left:32px; margin-right:18px; margin-top:15px;font-family: myFirstFont1}
+.img2{ margin-top:5px}
+
+/*-----------------------------------------------------------lowerbox---------------------------------------*/
+
+.grasshopper{ position:absolute; margin-left:-27px; margin-top:-54px}
+
+.lower-box{ height:390px; background:#f47e27; margin-top:158px; border-radius:30px 30px 30px 30px; border-bottom:solid 45px #d47128; transition:1s; position:relative}
+.lower-box:hover{transform:scale(1.3); z-index:2; box-shadow:2px 2px 2px #000}
+
+.lower-box2{ height:390px; background:#4cba32; margin-top:158px; border-radius:30px 30px 30px 30px; border-bottom:solid 45px #3e9929; transition:1s}
+.lower-box2:hover{transform:scale(1.3); z-index:2; box-shadow:2px 2px 2px #000}
+
+.ant{ position:absolute; margin-left:-10px; margin-top:-62px}
+
+.lower-box3{ height:390px; background:#dd336f; margin-top:158px; border-radius:30px 30px 30px 30px; border-bottom:solid 45px #c72f64; transition:1s; position:relative}
+.lower-box3:hover{transform:scale(1.3); z-index:2; box-shadow:2px 2px 2px #000}
+
+.lower-text{ color:#FFFFFF; font-size:20px; text-align:left; margin-top:22px; margin-left:15px}
+.lower-text li{ list-style:none}
+.lower-text li a{ color:#ffffff}
+.lower-text li a:hover{ color:#000000; text-decoration:none}
+
+/*-------------------------------------------------------------footer-----------------------------------------*/
+.pond{ text-align:center; margin-top:69px}
+
+.bug{ position:absolute; padding-right:60px; margin-top:-80px}
+
+.footer{height:260px; background:#cdc030; margin-top:68px; border-radius:50px 50px 0px 0px; padding:20px 0; border:#ebf06d 8px solid; position:relative}
+.social{ /*padding-top:61px;*/ margin-left:17px}
+.social { padding:13px}
+.footer-text{ text-align:center; font-size:18px; font-family: myFirstFont;}
+
+.flower{ float:right;  /*margin-top:20px;*/ /*margin-right:20px;*/ position: fixed}
